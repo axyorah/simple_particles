@@ -58,7 +58,7 @@ You should now have all the necessary files. To confirm that everything went as 
 
 If you have Windows machine download and unpack `Builds/ParticlesWindowsBuild.tar.gz`:
 ```
-$ curl -L https://github.com/axyorah/simple_particles/blob/master/Builds/ParticlesWindowsBuild.zip
+$ curl -L https://github.com/axyorah/simple_particles/raw/master/Builds/ParticlesWindowsBuild.tar.gz -O ParticlesWindowsBuild.tar.gz
 $ tar -xzvf ParticlesWindowsBuild.tar.gz
 ```
 In unpacked ParticlesWindowsBuild directory run the executable `Particles.exe`.
