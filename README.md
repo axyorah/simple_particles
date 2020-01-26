@@ -14,9 +14,9 @@ Here are some basic details about this particle sandbox:
   <br>
   <img width=200 src="imgs/electrostatic.png"></img>
   <br>
-  q1,q2 - are the particle charges<br>
-  r - is the distance between the particles<br>
-  k - is the parameter that we can toggle in the sandbox.<br>
+    q1,q2 - are the particle charges<br>
+    r - is the distance between the particles<br>
+    k - is the parameter that we can toggle in the sandbox.<br><br>
   
   - *Pauli repulsion*: as two atoms (or ions) are pushed closer together and their electron shells start to overlap we run into situation when more than two electrons become residents of a single orbital, which should never be the case according to [Pauli Exclusion Principle](https://en.wikipedia.org/wiki/Pauli_exclusion_principle). Since the "intruding" electrons cannot remain at the orbital that already has maximal number of residents, they have to "migrate" to the higher shells, which requires massive energy investments:
   <br>
