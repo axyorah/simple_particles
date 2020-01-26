@@ -19,7 +19,7 @@ Here are some basic details about this particle sandbox:
   k - is the parameter that we can toggle in the sandbox.
   - *Pauli repulsion*: as two atoms (or ions) are pushed closer together and their electron shells start to overlap we run into situation when more than two electrons become residents of a single orbital, which should never be the case according to [Pauli Exclusion Principle](https://en.wikipedia.org/wiki/Pauli_exclusion_principle). Since the "intruding" electrons cannot remain at the orbital that already has maximal number of residents, they have to "migrate" to the higher shells, which requires massive energy investments:
   <br>
-  <img src="imgs/pauli.png"></img>
+  <img width=200 src="imgs/pauli.png"></img>
   <br>
   C and alpha - are parameters that we can toggle in the sandbox.
 
@@ -46,11 +46,11 @@ $ curl -L https://raw.githubusercontent.com/axyorah/simple_particles/master/Part
 
 Next, go to Unity and create new project:
 
-<img src="imgs/newunityproject.png"></img>
+<img width=200 src="imgs/newunityproject.png"></img>
 
 In your new project inspector go to Assets/Import Package/Custom Package and navigate to your newly downloaded `ParticlesAssets.unitypackage`
 
-<img src="imgs/importassets.png"></img>
+<img width=200 src="imgs/importassets.png"></img>
 
 You should now have all the necessary files. To confirm that everything went as expected hit the Play button and toggle the controls.
 
