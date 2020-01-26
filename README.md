@@ -12,7 +12,7 @@ Here are some basic details about this particle sandbox:
 - only two types of interactions (aside from elastic collisions) are considered for each pair of particles:
   - *Electrostatic attraction/repulsion*: particles with oppisite charges attract, while particles with the same charge repel. It is intuitive that if two particles are infinitely far apart their interaction energy should be close to zero. While if two oppositely charged particles are close, pulling them apart would require some energy input and, thus, increase the energy of the system. Therefore, energy corresponding to electrostatic interaction should be negative and inversely proportional to distance:
   <br>
-  <img src="imgs/electrostatic.png"></img>
+  <img width=200 src="imgs/electrostatic.png"></img>
   <br>
   q1,q2 - are the particle charges<br>
   r - is the distance between the particles<br>
@@ -24,7 +24,7 @@ Here are some basic details about this particle sandbox:
   C and alpha - are parameters that we can toggle in the sandbox.
 
   The combined effect of these two types of interaction looks like this:
-  <img src="imgs/combinedinteraction.png"></img>
+  <img width=500 src="imgs/combinedinteraction.png"></img>
   Of course varying the particle charges and toggling the parameters (k, C and alpha) would change the exact shape of the curve. Try it yourlsef!
 
 ## Getting Started
@@ -46,11 +46,11 @@ $ curl -L https://raw.githubusercontent.com/axyorah/simple_particles/master/Part
 
 Next, go to Unity and create new project:
 
-<img width=200 src="imgs/newunityproject.png"></img>
+<img width=500 src="imgs/newunityproject.png"></img>
 
 In your new project inspector go to Assets/Import Package/Custom Package and navigate to your newly downloaded `ParticlesAssets.unitypackage`
 
-<img width=200 src="imgs/importassets.png"></img>
+<img width=500 src="imgs/importassets.png"></img>
 
 You should now have all the necessary files. To confirm that everything went as expected hit the Play button and toggle the controls.
 
